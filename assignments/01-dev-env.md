@@ -21,3 +21,5 @@ PlayGround, REPL, IDEで素早くScalaソースコードを書き実行できる
  - 3.1 sbtをインストールして下さい
  - 3.2 IntelliJ IDEAをインストールして下さい
  
+[image](https://user-images.githubusercontent.com/11292872/78146663-6bf99f00-746d-11ea-9a8d-9478e9a8946d.png)
+
