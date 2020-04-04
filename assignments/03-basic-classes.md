@@ -13,9 +13,16 @@
 
 2. 「実践Scala入門」第2章p.54 -> p.55「クラスを定義する」のPointクラスを定義して下さい。(p.55「先回りして例示しておくと…」直後です) 
 
+[image](https://user-images.githubusercontent.com/11292872/78419748-eac82500-7683-11ea-92cd-1f007cc6eac9.png)
+
 3. 「実践Scala入門」第2章p.54 -> p.55「クラスを定義する」の (p.55「まず、先程あげたPointを定義することについて考えてみましょう…」直後です）を 上記課題1. のMainクラスのmain関数の中で呼び出して、実行結果を貼り付けて下さい
+
+[image](https://user-images.githubusercontent.com/11292872/78419699-4514b600-7683-11ea-860b-b8888f82ac00.png)
+
 
 4. 3.で定義したPointクラスを参考に、xとy座標のみを持つPoint2Dクラスを定義して、TriangleAreaクラスとそのメソッド`def area: Double`を実装して下さい
   - 4.1 TriangleAreaクラスはPoint2Dを3つフィールドに持つクラスです
   - 4.2 Point2D(1,2),Point2D(3,4),Point2D(0,0)の３頂点をもつ三角形の面積を求めるコードを書いて下さい。答えは面積 = 1です。 https://mathwords.net/x1y2hikux2y1
   - 4.3 Point2D(5,7),Point2D(3,4),Point2D(1,2)の３頂点をもつ三角形の面積を求めるコードを書いて下さい。答えは面積 = 1です。 https://mathwords.net/x1y2hikux2y1
+
+[image](https://user-images.githubusercontent.com/11292872/78420397-c1aa9300-7689-11ea-8788-d86797998c4e.png)
