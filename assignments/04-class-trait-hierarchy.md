@@ -28,3 +28,6 @@ class Cheetah:       // "I run at 93km/h, you can't see me"
 class Human:         // "20 km/h isn't so bad actually" 
 class OlympicAthlete // "40 km/h at maximum" 
 ```
+<img width=400 src="https://user-images.githubusercontent.com/11292872/78467335-9b96f880-7746-11ea-807d-b5486697d3da.png" />
+
+<img width=400 src="https://user-images.githubusercontent.com/11292872/78467364-f3356400-7746-11ea-8847-2d5b4f976e4a.png" />
