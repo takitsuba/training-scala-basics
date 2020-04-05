@@ -1,27 +1,18 @@
 object Main {
-//    throw new RuntimeException("実行時例外！")
-//    try {
-//      throw new RuntimeException("実行事例外！")
-//    } catch {
-//      case e: Exception => println(e.getMessage)
-//    }
-
-  def divide(m: Int, n: Int) = {
-    if (n == 0) {
-//      throw new Exception("0除算エラー！")
-      None
-    } else {
-      Some(m / n)
-    }
-  }
-
   def main(args: Array[String]): Unit = {
-    val n: Int = args(0).toInt
-    try {
-      println(divide(10, n))
-    } catch {
-      case e:Exception => println(e)
+    import scala.io.StdIn._
+    val in = readLine("Type Either a string or an Int: \n")
+    val result: Either[String, Int] =
+      try Right(in.toInt)
+      catch {
+        case e: NumberFormatException => Left(in)
+      }
+
+    result match {
+      case Right(x) =>
+        println(s"You passed me the Int: $x, which I will increment. $x + 1 = ${x + 1}")
+      case Left(x) =>
+        println(s"You passed me the String: $x")
     }
   }
-
 }
